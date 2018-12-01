@@ -1,3 +1,6 @@
 # Ignore compiled class file
 *.class
 
+
+# Ignore eclipse settings file
+.settings
