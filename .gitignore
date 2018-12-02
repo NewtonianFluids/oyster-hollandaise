@@ -9,3 +9,5 @@ bin/
 
 # Ignore eclipse settings file
 .settings
+/.metadata/
+/bin/
