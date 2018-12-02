@@ -44,7 +44,7 @@ public class Main {
 	public static int DISPLAY_WIDTH;
 	public static int DISPLAY_HEIGHT;
 	public static float HW_RATIO;
-
+	public static int STATES = 3;
 	/**
 	 * M A I N
 	 * 
@@ -77,10 +77,11 @@ public class Main {
 		glEnable(GL_TEXTURE_2D);
 		glEnable(GL_BLEND);
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-
+		
 		/*
 		 * Initializes all game states, sets current game state to start of game
 		 */
+		GameStateManager.createStates(STATES);
 		GameStateManager.initStates();
 		GameStateManager.setState(GameStateManager.IN_GAME); // temporarily skips directly into game
 

@@ -10,14 +10,22 @@ package org.newtonianfluids.oh.state;
 ///////////////////////////////////////////////
 
 public final class GameStateManager {
-	private static final GameState[] GAME_STATES = new GameState[3];
-
+	private static GameState[] GAME_STATES;
+	
 	public static final int LOAD_SCREEN = 0;
 	public static final int MAIN_MENU = 1;
 	public static final int IN_GAME = 2;
 
 	private static int currentState;
 
+	public static void createStates() {
+		createStates(3);
+	}
+	
+	public static void createStates(int states) {
+		GAME_STATES = new GameState[states];
+	}
+	
 	/**
 	 * Initializes all game states
 	 */
