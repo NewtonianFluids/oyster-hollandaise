@@ -1,6 +1,11 @@
 # Ignore compiled class file
 *.class
 
+# Ignore eclipse project file
+.project
+
+# Ignore the bin folder
+bin/
 
 # Ignore eclipse settings file
 .settings
