@@ -2,5 +2,12 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/simon/OneDrive/Documents/Project Oyster Hollandaise/oyster-hollandaise/lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Strategy Game Thing/lib/natives"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/simon/OneDrive/Documents/Project Oyster Hollandaise/oyster-hollandaise/lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/simon/OneDrive/Documents/Project Oyster Hollandaise/oyster-hollandaise/lib/jars/slick-util.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
