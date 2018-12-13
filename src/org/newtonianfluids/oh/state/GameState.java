@@ -16,6 +16,7 @@ package org.newtonianfluids.oh.state;
  *
  */
 public interface GameState {
+	
 	/**
 	 * Called upon first time game state initialization
 	 */
@@ -39,10 +40,10 @@ public interface GameState {
 	/**
 	 * Processes user keyboard input
 	 */
-	public void keyboardEvent();
+	public void keyboardUpdate();
 
 	/**
 	 * Processes user mouse input
 	 */
-	public void mouseEvent();
+	public void mouseUpdate();
 }

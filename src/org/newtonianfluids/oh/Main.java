@@ -94,8 +94,8 @@ public class Main {
 			/*
 			 * Detect user input
 			 */
-			GameStateManager.keyboardEvent();
-			GameStateManager.mouseEvent();
+			GameStateManager.keyboardUpdate();
+			GameStateManager.mouseUpdate();
 
 			/*
 			 * Update game info and draw to screen

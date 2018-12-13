@@ -62,15 +62,15 @@ public final class GameStateManager {
 	/**
 	 * Detects for user keyboard input
 	 */
-	public static void keyboardEvent() {
-		GAME_STATES[currentState].keyboardEvent();
+	public static void keyboardUpdate() {
+		GAME_STATES[currentState].keyboardUpdate();
 	}
 
 	/**
 	 * Detects for user mouse input
 	 */
-	public static void mouseEvent() {
-		GAME_STATES[currentState].mouseEvent();
+	public static void mouseUpdate() {
+		GAME_STATES[currentState].mouseUpdate();
 	}
 
 	/**
