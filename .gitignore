@@ -11,3 +11,7 @@ bin/
 .settings
 /.metadata/
 /bin/
+
+# Ignore intellij files
+*.iml
+.idea
